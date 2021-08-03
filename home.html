@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="./script.js"></script>
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="input-container">
+        <div class="">
+          <span>Image width (px)</span>
+          <input id="w" />
+        </div>
+        <div class="">
+          <span>Image height (px)</span>
+          <input id="h" />
+        </div>
+        <button id="load-button" onclick="loadImage()">Load Image</button>
+      </div>
+      <div class="main-container" hidden>
+        <div class="img-container main-img-container">
+          <img id="main-img" />
+        </div>
+      </div>
+      <div class="list-container"></div>
+    </div>
+  </body>
+</html>
